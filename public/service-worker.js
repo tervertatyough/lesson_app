@@ -1,9 +1,5 @@
 var cacheName = "lesson-store-v1";
-var cacheFiles = [
-  "index.html",
-  "lesson.webmanifest",
-  "../src/assets/icon-lesson-512.jpg",
-];
+var cacheFiles = ["index.html", "lesson.webmanifest", "icon512.jpg"];
 
 self.addEventListener("install", (e) => {
   console.log("[Service Worker] Install");
